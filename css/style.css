@@ -902,7 +902,7 @@ margin-left: 100px; */
 
 
 /* media quarry */
-@media (max-width:991px) {
+/* @media (max-width:991px) {
 
     .home {
         flex-flow: column;
@@ -923,16 +923,17 @@ margin-left: 100px; */
         border: none;
     }
 
-}
+} */
 
 @media (max-width:568px) {
 
-    html {
-        width: 40%;
-              display: inline-block;
-        justify-content: center;
-    }
+   html{
+     width: 500px;
+   }
 
+   header{
+    width: 500px;
+   }
 
     /* header{
         justify-content: space-between;
@@ -986,10 +987,9 @@ margin-left: 100px; */
     }
 
     .Services {
-        width: 1240px;
+        width: 540px;
         height: 556px;
         opacity: 1;
-        background: #FFFFFF;
     }
 
     .servicesone {
@@ -998,7 +998,7 @@ margin-left: 100px; */
         justify-content: start;
         align-items: start;
         /* text-align: center; */
-        width: 1120px;
+        width: 5120px;
         height: 396px;
         opacity: 1;
         margin-top: 80px;
@@ -1025,11 +1025,11 @@ margin-left: 100px; */
         text-align: center;
 
         h2 {
-            font-size: 2.5rem;
+            font-size: 1.5rem;
         }
 
         p {
-            font-size: 2rem;
+            font-size: 1rem;
         }
 
     }
@@ -1044,7 +1044,7 @@ margin-left: 100px; */
 
         .services-one {
             display: flex;
-            width: 100%;
+            width: 400px;
             height: 25%;
             align-items: center;
             gap: 15px;
@@ -1067,7 +1067,7 @@ margin-left: 100px; */
         .services-two {
             display: flex;
             gap: 15px;
-            width: 100%;
+            width: 400px;
             height: 25%;
             align-items: center;
 
@@ -1089,6 +1089,7 @@ margin-left: 100px; */
     .about-us {
         display: flex;
         flex-direction: column;
+        width: 500px;
         height: 1000px;
     }
 
@@ -1122,6 +1123,9 @@ margin-left: 100px; */
 
     }
 
+    section{
+        width: 500px;
+    }
     .section-one {
         width: 515px;
         text-align: start;
@@ -1147,7 +1151,7 @@ margin-left: 100px; */
     }
 
     .footer {
-        /* width: 440px; */
+        width: 540px;
         height: 274px;
     }
 
