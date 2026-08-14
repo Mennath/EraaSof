@@ -6,12 +6,12 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-html {
+html{
     width: 100%;
-    overflow-x: hidden;
-
 }
+/* section{
+    width: 100%;
+} */
 
 header {
     width: 100%;
@@ -20,9 +20,10 @@ header {
     /* box-shadow: 0.3rem  rgba(0, 0, 0, .3);
     background-color: #fff; */
     background: #FFFFFF;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    left: 55%;
+    /* left: 55%; */
     /* transform: translateX(-50%);
     border-radius: .5rem;
     box-shadow: 0.3rem .5rem rgba(0,0,0,.3); */
@@ -35,7 +36,7 @@ header {
 nav {
     display: flex;
     height: 30px;
-    width: 1160px;
+    width: 90%;
     /* background-origin: content-box; */
     justify-content: space-between;
     /* justify-content: center; */
@@ -43,14 +44,15 @@ nav {
     gap: 30px;
     opacity: 1;
     margin-top: 10px;
-    margin-left: 80px;
+    /* margin-left: 80px; */
 }
 
 img {
     width: 142px;
     /* height: 48px; */
     opacity: 1;
-    gap: 8px;
+    margin-left: 20px;
+    /* gap: 8px; */
     background-origin: content-box;
 
 }
@@ -94,12 +96,12 @@ img {
     width: 207px;
     height: 48px;
     /* margin-left: 100px; */
-    margin-right: 80px;
+    /* margin-right: 80px; */
     opacity: 1;
     gap: 16px;
 
-    .button,
-    button:nth-child(1) {
+   
+     button:nth-child(1) {
         width: 67px;
         height: 48px;
         opacity: 1;
@@ -114,7 +116,7 @@ img {
         border: 1px solid #1147B31A;
         transition: .2s linear;
 
-        .button,
+        
         button:nth-child(1) {
             font-family: Roboto;
             font-weight: 500;
@@ -169,7 +171,7 @@ button:nth-child(2):hover {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(140, 140, 140, 0.5)), url(../images/05c901725fc5e562f9ecc8193b6a2d0fe01223f3.jpg);
     /* background-image: linear-gradient(to   rgba(0, 0, 0, 0.5)); */
     background-repeat: round;
-    width: 1440px;
+    width: 100%;
     height: 800px;
     opacity: 1;
     position: relative;
@@ -187,7 +189,7 @@ button:nth-child(2):hover {
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        width: 1320px;
+        /* width: 50%; */
         height: 396px;
         opacity: 1;
         margin-top: 180px;
@@ -240,8 +242,8 @@ button:nth-child(2):hover {
                 line-height: 26px;
                 letter-spacing: 0%;
                 vertical-align: middle;
-                width: 576px;
-                height: 52px;
+                /* width: 576px;
+                height: 52px; */
                 opacity: 1;
                 color: #FFFFFF;
             }
@@ -285,7 +287,7 @@ button:nth-child(2):hover {
 
 
 .Services {
-    width: 1440px;
+    width: 100%;
     height: 556px;
     opacity: 1;
     background: #FFFFFF;
@@ -297,7 +299,7 @@ button:nth-child(2):hover {
     justify-content: center;
     align-items: center;
     /* text-align: center; */
-    width: 1320px;
+    width:100%;
     height: 396px;
     opacity: 1;
     margin-top: 80px;
@@ -307,7 +309,7 @@ button:nth-child(2):hover {
 }
 
 .services1 {
-    width: 576px;
+    width: 50%;
     height: 110px;
     opacity: 1;
     gap: 12px;
@@ -317,13 +319,13 @@ button:nth-child(2):hover {
 
 .services2 {
     display: flex;
-    width: 1320px;
+    width: 100%;
     height: 246px;
     opacity: 1;
     gap: 24px;
 
     .services-one {
-        width: 280px;
+        width: 22%;
         height: 246px;
         opacity: 1;
         gap: 10px;
@@ -393,7 +395,7 @@ button:nth-child(2):hover {
 
 
     .services-two {
-        width: 312px;
+        width: 22%;
         height: 246px;
         angle: 0 deg;
         opacity: 1;
@@ -462,7 +464,7 @@ button:nth-child(2):hover {
 
 
 .about-us {
-    width: 1440px;
+    width: 100%;
     height: 586px;
     opacity: 1;
     background-color: rgba(238, 243, 253, 1);
@@ -470,7 +472,7 @@ button:nth-child(2):hover {
 }
 
 .aboutusone {
-    width: 1140px;
+    width:100%;
     height: 486px;
     /* margin: 20px 10px; */
     display: flex;
@@ -480,12 +482,12 @@ button:nth-child(2):hover {
 .us {
     display: flex;
     flex-direction: column;
-    width: 532px;
+    width: 45%;
     height: 372px;
     angle: 0 deg;
     opacity: 1;
     margin-top: 107px;
-    margin-left: 60px;
+    margin-left: 20px;
     gap: 24px;
 
     h2 {
@@ -516,7 +518,7 @@ button:nth-child(2):hover {
     }
 
     button {
-        width: 240px;
+        width: 50%;
         height: 50px;
         opacity: 1;
         gap: 16px;
@@ -545,14 +547,14 @@ button:nth-child(2):hover {
     ;
 }
 
-.aboutustwo {
+/* .aboutustwo {
     padding-right: 10px;
     padding-left: 10px;
-}
+} */
 
 .aboutustwo img {
 
-    width: 661px;
+    width:80%;
     height: 426px;
     /* angle: 0 deg; */
     opacity: 1;
@@ -563,7 +565,7 @@ button:nth-child(2):hover {
 }
 
 .contact-us {
-    width: 1440px;
+    width: 100%;
     height: 858px;
     opacity: 1;
     background: rgba(255, 255, 255, 1);
@@ -572,12 +574,12 @@ button:nth-child(2):hover {
 .content11 {
     display: flex;
     flex-direction: column;
-    width: 1320;
+    width: 90%;
     height: 698;
     angle: 0 deg;
     opacity: 1;
     margin-top: 80px;
-    margin-left: 60px;
+    /* margin-left: 60px; */
     gap: 40px;
 }
 
@@ -590,13 +592,13 @@ button:nth-child(2):hover {
     display: flex;
     justify-content: start;
     gap: 80px;
-    width: 516px;
+    width:60%;
     height: 60px;
     opacity: 1;
 
     /* border-block-end-style: ridge; */
     li {
-        width: 172;
+        width: 172px;
         height: 60;
         justify-content: space-between;
         opacity: 1;
@@ -648,7 +650,7 @@ button:nth-child(2):hover {
 }
 
 .contact-us-two img {
-    width: 1320px;
+    width: 100%;
     height: 598px;
     angle: 0 deg;
     opacity: 1;
@@ -657,7 +659,7 @@ button:nth-child(2):hover {
 }
 
 .section {
-    width: 1440px;
+    width:100%;
     height: 805px;
     angle: 0 deg;
     opacity: 1;
@@ -708,8 +710,9 @@ button:nth-child(2):hover {
 
 .section-twoo {
     display: flex;
+    text-align: center;
     flex-direction: column;
-    width: 872px;
+    width: 60%;
     height: 487px;
     angle: 0 deg;
     opacity: 1;
@@ -784,7 +787,7 @@ button:nth-child(2):hover {
 }
 
 .footer {
-    width: 1440px;
+    width:100%;
     height: 374px;
     opacity: 1;
     /* align-items: center;
@@ -797,7 +800,7 @@ button:nth-child(2):hover {
 
 .footerr {
     display: flex;
-    width: 1200px;
+    width: 90%;
     height: 234px;
     opacity: 1;
     margin-top: 70px;
@@ -851,7 +854,7 @@ button:nth-child(2):hover {
 
     }
 
-    p {
+    p  {
         font-family: Roboto;
         font-weight: 400;
         font-style: Regular;
@@ -861,7 +864,6 @@ button:nth-child(2):hover {
         letter-spacing: 0%;
         vertical-align: middle;
         color: rgba(255, 255, 255, 1);
-
     }
 }
 
@@ -927,18 +929,9 @@ margin-left: 100px; */
 
 @media (max-width:568px) {
 
-   html{
-     width: 500px;
-
-   }
-
-   header{
-    width: 500px;
-   }
-
-    /* header{
-        justify-content: space-between;
-    } */
+    header{
+        width: 100%;
+    }
     header .navbar ul {
         display: none;
     }
@@ -952,7 +945,7 @@ margin-left: 100px; */
 
     header .button {
         position: absolute;
-        width: 200px;
+        width: 50%;
         /* height: 60px; */
         display: flex;
         margin-top: 20px;
@@ -962,10 +955,11 @@ margin-left: 100px; */
         /* height: 20px; */
 
     }
+    
 
     #home {
         background-repeat: round;
-        width: 560px;
+        width: 100%;
         height: 500px;
         opacity: 1;
         position: relative;
@@ -977,18 +971,24 @@ margin-left: 100px; */
         .content {
             position: absolute;
             text-align: start;
-            width: 320px;
-            height: 296px;
+            width:50%;
+            height: 396px;
             opacity: 1;
             margin-top: 90px;
             margin-left: 0px;
             /* gap: 40px; */
+            p{
+                display: none;
+            }
 
         }
     }
+    #Services ,#about-us ,#contact-us {
+        width: 500px;
+    }
 
     .Services {
-        width: 540px;
+        width: 30%;
         height: 556px;
         opacity: 1;
     }
@@ -999,7 +999,7 @@ margin-left: 100px; */
         justify-content: start;
         align-items: start;
         /* text-align: center; */
-        width: 320px;
+        width: 30%;
         height: 396px;
         opacity: 1;
         margin-top: 80px;
@@ -1009,13 +1009,16 @@ margin-left: 100px; */
     }
 
     .us {
-        width: 432px;
+        width: 90%;
         height: 372px;
     }
 
     .aboutustwo img {
-        width: 461px;
+        width: 90%;
         /* height: 426px; */
+    }
+    .about-us{
+        width: 100%;
     }
 
     .services1 {
@@ -1037,8 +1040,8 @@ margin-left: 100px; */
 
     .services2 {
         display: block;
-        width: 320px;
-        margin-left: 10px;
+        width:90%;
+        /* margin-left: 10px; */
         height: 100%;
         opacity: 1;
         gap: 24px;
@@ -1123,32 +1126,34 @@ margin-left: 100px; */
         width: 556px;
 
     }
-
-    section{
-        width: 500px;
+    .section{
+        display: none;
     }
     .section-one {
-        width: 515px;
-        text-align: start;
-        margin-left: -30px;
+        display: none;
+    }
+        /* width: 100%;
+        text-align: start; */
+        /* margin-left: -30px; */
         /* p:nth-child(2){
     display: none;
-   } */
+   
     }
 
-    .section-one p:nth-child(1) {
-        /* text-align: start; */
+    /* .section-one p:nth-child(1) {
+    
         font-size: 24px;
     }
 
     .section-one p:nth-child(2) {
 
         font-size: 6px;
-    }
+    } */
 
     .section-twoo {
+        display: none;
         width: 500px;
-        margin-left: 27px;
+        /* margin-left: 27px; */
     }
 
     .footer {
@@ -1166,7 +1171,7 @@ margin-left: 100px; */
     .footerr .footer-one:nth-child(1) {
         justify-content: center;
         margin-top: 100px;
-        margin-left: 50px;
+        /* margin-left: 50px; */
     }
 
     .footerr .footer-one:nth-child(2),
